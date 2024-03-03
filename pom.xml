@@ -11,6 +11,7 @@
   <url>https://github.com/zhangyunan1994/sherry</url>
   <modules>
     <module>sherry-rules</module>
+    <module>sherry-core</module>
   </modules>
 
   <properties>
@@ -23,4 +24,16 @@
   <dependencies>
 
   </dependencies>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-engine</artifactId>
+        <version>5.10.2</version>
+        <scope>test</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
 </project>
